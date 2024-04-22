@@ -5,6 +5,6 @@ import { ListeMostreComponent } from './liste-mostre/liste-mostre.component';
 export const routes: Routes = [
     {path: 'Mostre', component: MostreComponent},
     {path: 'Home', component: HomeComponent},
-    {path: 'ListeMostre', component: ListeMostreComponent},
+    {path: 'ListeMostre/:id', component: ListeMostreComponent},
   
   ];
